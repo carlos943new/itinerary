@@ -1,0 +1,223 @@
+import 'package:travel_itinerary/models/place.dart';
+
+const places = [
+  Place(
+    id: '1',
+    name: 'Café Alameda',
+    description:
+        'A cozy café in the heart of Mérida, perfect for breakfast and a quiet afternoon coffee.',
+    image: 'assets/images/places/cafe_alameda.jpg',
+    category: 'coffee',
+    address: 'Calle 47, Centro',
+    rating: 4.7,
+    openingHours: '7:00 AM - 9:00 PM',
+  ),
+  Place(
+    id: '2',
+    name: 'Casa del Sol',
+    description:
+        'A colorful Yucatecan restaurant serving traditional dishes with a modern touch.',
+    image: 'assets/images/places/casa_del_sol.jpg',
+    category: 'food',
+    address: 'Calle 60, Centro',
+    rating: 4.8,
+    openingHours: '1:00 PM - 11:00 PM',
+  ),
+  Place(
+    id: '3',
+    name: 'Museo del Tiempo',
+    description:
+        'A small museum exploring the history and culture of Mérida through interactive exhibits.',
+    image: 'assets/images/places/museo_tiempo.jpg',
+    category: 'culture',
+    address: 'Calle 58, Centro',
+    rating: 4.6,
+    openingHours: '10:00 AM - 6:00 PM',
+  ),
+  Place(
+    id: '4',
+    name: 'Paseo de Montejo',
+    description:
+        'A beautiful historic avenue lined with impressive mansions, trees, cafés and restaurants.',
+    image: 'assets/images/places/paseo_montejo.jpg',
+    category: 'history',
+    address: 'Paseo de Montejo',
+    rating: 4.9,
+    openingHours: 'Open 24 hours',
+  ),
+  Place(
+    id: '5',
+    name: 'Parque de Santa Lucía',
+    description:
+        'A lively central plaza surrounded by restaurants and known for its evening cultural events.',
+    image: 'assets/images/places/santa_lucia.jpg',
+    category: 'nature',
+    address: 'Calle 60 x 55, Centro',
+    rating: 4.8,
+    openingHours: 'Open 24 hours',
+  ),
+  Place(
+    id: '6',
+    name: 'Mercado Central',
+    description:
+        'A bustling local market filled with food stalls, crafts, fresh produce and traditional products.',
+    image: 'assets/images/places/mercado.jpg',
+    category: 'shopping',
+    address: 'Calle 54, Centro',
+    rating: 4.5,
+    openingHours: '6:00 AM - 5:00 PM',
+  ),
+  Place(
+    id: '7',
+    name: 'La Terraza',
+    description:
+        'A rooftop bar with views over the historic center and a relaxed atmosphere at sunset.',
+    image: 'assets/images/places/la_terraza.jpg',
+    category: 'nightlife',
+    address: 'Calle 62, Centro',
+    rating: 4.6,
+    openingHours: '5:00 PM - 1:00 AM',
+  ),
+  Place(
+    id: '8',
+    name: 'Galería 47',
+    description:
+        'A contemporary art gallery featuring rotating exhibitions from local and national artists.',
+    image: 'assets/images/places/galeria_47.jpg',
+    category: 'culture',
+    address: 'Calle 47, Centro',
+    rating: 4.4,
+    openingHours: '11:00 AM - 7:00 PM',
+  ),
+  Place(
+    id: '9',
+    name: 'Jardín del Centro',
+    description:
+        'A peaceful green space surrounded by historic buildings and shaded walking paths.',
+    image: 'assets/images/places/jardin.jpg',
+    category: 'nature',
+    address: 'Calle 63, Centro',
+    rating: 4.5,
+    openingHours: '7:00 AM - 10:00 PM',
+  ),
+  Place(
+    id: '10',
+    name: 'La Esquina',
+    description:
+        'A casual restaurant specializing in tacos, tortas and other Mexican street food.',
+    image: 'assets/images/places/la_esquina.jpg',
+    category: 'food',
+    address: 'Calle 70, Centro',
+    rating: 4.7,
+    openingHours: '12:00 PM - 11:30 PM',
+  ),
+  Place(
+    id: '11',
+    name: 'Café Naranja',
+    description:
+        'A bright neighborhood coffee shop offering specialty coffee, pastries and light meals.',
+    image: 'assets/images/places/cafe_naranja.jpg',
+    category: 'coffee',
+    address: 'Calle 43, Centro',
+    rating: 4.6,
+    openingHours: '7:00 AM - 8:00 PM',
+  ),
+  Place(
+    id: '12',
+    name: 'Casa de los Arcos',
+    description:
+        'A restored historic building where visitors can learn about Mérida architecture and local history.',
+    image: 'assets/images/places/casa_arcos.jpg',
+    category: 'history',
+    address: 'Calle 64, Centro',
+    rating: 4.3,
+    openingHours: '9:00 AM - 5:00 PM',
+  ),
+  Place(
+    id: '13',
+    name: 'Plaza del Sol',
+    description:
+        'An open-air plaza with local shops, restaurants and plenty of space to relax.',
+    image: 'assets/images/places/plaza_sol.jpg',
+    category: 'shopping',
+    address: 'Calle 56, Centro',
+    rating: 4.2,
+    openingHours: '10:00 AM - 9:00 PM',
+  ),
+  Place(
+    id: '14',
+    name: 'El Mirador',
+    description:
+        'A stylish cocktail bar with live music and a laid-back atmosphere.',
+    image: 'assets/images/places/el_mirador.jpg',
+    category: 'nightlife',
+    address: 'Calle 55, Centro',
+    rating: 4.7,
+    openingHours: '6:00 PM - 2:00 AM',
+  ),
+  Place(
+    id: '15',
+    name: 'Museo del Yucatán',
+    description:
+        'An interactive museum dedicated to the history, traditions and people of the Yucatán.',
+    image: 'assets/images/places/museo_yucatan.jpg',
+    category: 'culture',
+    address: 'Calle 61, Centro',
+    rating: 4.7,
+    openingHours: '9:00 AM - 6:00 PM',
+  ),
+  Place(
+    id: '16',
+    name: 'Parque de Santiago',
+    description:
+        'A relaxed neighborhood park surrounded by traditional restaurants and local shops.',
+    image: 'assets/images/places/santiago.jpg',
+    category: 'nature',
+    address: 'Calle 72, Santiago',
+    rating: 4.6,
+    openingHours: 'Open 24 hours',
+  ),
+  Place(
+    id: '17',
+    name: 'Sabores',
+    description:
+        'A modern restaurant combining traditional Yucatecan ingredients with contemporary cuisine.',
+    image: 'assets/images/places/sabores.jpg',
+    category: 'food',
+    address: 'Calle 49, Centro',
+    rating: 4.8,
+    openingHours: '1:00 PM - 10:30 PM',
+  ),
+  Place(
+    id: '18',
+    name: 'Café Central',
+    description: 'A popular café overlooking one of Mérida’s historic plazas.',
+    image: 'assets/images/places/cafe_central.jpg',
+    category: 'coffee',
+    address: 'Plaza Grande',
+    rating: 4.5,
+    openingHours: '7:00 AM - 10:00 PM',
+  ),
+  Place(
+    id: '19',
+    name: 'El Patio',
+    description:
+        'A colorful courtyard venue with live music, drinks and small plates.',
+    image: 'assets/images/places/el_patio.jpg',
+    category: 'nightlife',
+    address: 'Calle 57, Centro',
+    rating: 4.6,
+    openingHours: '6:00 PM - 1:00 AM',
+  ),
+  Place(
+    id: '20',
+    name: 'La Estación',
+    description:
+        'A creative entertainment space hosting local performances, workshops and cultural events.',
+    image: 'assets/images/places/la_estacion.jpg',
+    category: 'entertainment',
+    address: 'Calle 48, Centro',
+    rating: 4.4,
+    openingHours: '4:00 PM - 11:00 PM',
+  ),
+];
