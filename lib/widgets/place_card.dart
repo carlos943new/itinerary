@@ -21,8 +21,19 @@ class PlaceCard extends StatelessWidget {
               width: double.infinity,
               height: 120,
               child: Image.asset(
-                'assets/images/paseodemontejo.jpg',
+                place.image,
                 fit: BoxFit.cover,
+                errorBuilder:
+                    (
+                      BuildContext context,
+                      Object error,
+                      StackTrace? stackTrace,
+                    ) {
+                      return Image.asset(
+                        'assets/images/placeholder.jpg',
+                        fit: BoxFit.cover,
+                      );
+                    },
               ),
             ),
 

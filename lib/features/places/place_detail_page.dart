@@ -15,7 +15,17 @@ class PlaceDetailPage extends StatelessWidget {
         // padding: EdgeInsets.all(16),
         child: Column(
           children: [
-            Image.asset('assets/images/paseodemontejo.jpg', fit: BoxFit.cover),
+            Image.asset(
+              place.image,
+              fit: BoxFit.cover,
+              errorBuilder:
+                  (BuildContext context, Object error, StackTrace? stackTrace) {
+                    return Image.asset(
+                      'assets/images/placeholder.jpg',
+                      fit: BoxFit.cover,
+                    );
+                  },
+            ),
             Padding(
               padding: const EdgeInsets.all(16),
               child: Column(
