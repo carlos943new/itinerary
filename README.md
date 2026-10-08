@@ -4,9 +4,10 @@ A Flutter app to explore places in Mérida, Yucatán, with a browsable
 landing page and search and filtering by location type.
 
 <p>
-  <img src="screenshots/landing.png" width="220" />
+  <img src="screenshots/landing1.png" width="220" />
+  <img src="screenshots/landing2.png" width="220" />
   <img src="screenshots/search.png" width="220" />
-  <img src="screenshots/filters.png" width="220" />
+  <img src="screenshots/detail.png" width="220" />
 </p>
 
 ## Features
